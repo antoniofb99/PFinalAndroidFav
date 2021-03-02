@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="20px"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="20dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagenEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/liga"
+            android:scaleType="fitXY"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonVerDestalles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Detalles "
+        android:layout_gravity="bottom"/>
+
+</androidx.cardview.widget.CardView>

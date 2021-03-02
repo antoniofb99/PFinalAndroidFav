@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:alpha="0.4"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:textColor="@color/negro"
+        android:gravity="center"
+        android:id="@+id/textoLigas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"/>
+
+</LinearLayout>

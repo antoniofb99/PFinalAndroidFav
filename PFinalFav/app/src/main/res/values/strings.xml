@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProyectoFinalFavoritos</string>
+    <string name="open">abierto</string>
+    <string name="close">cerrado</string>
+</resources>
